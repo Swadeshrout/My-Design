@@ -1,0 +1,22 @@
+input[type=text] ,input[type=email] ,input[type=password] {
+                border: 1px solid black;
+                border-radius: 4px;
+                height: 30px;
+            }
+
+button{
+        font-size: 15px;
+        background-color:cornflowerblue;
+        color:darkblue;
+        padding: 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-align: center;
+        border: none;
+        margin: 10px;
+                
+}
+
+button:hover{
+    cursor: pointer;
+}

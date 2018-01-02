@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(171, 195, 209);
+}
+.form{
+    border: 12px solid white;
+    background-color: aquamarine;
+    max-width: 500px;
+    margin-left: 420px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.form-group{
+    line-height: 45px;
+}
+
+label{
+    font-weight: bold;
+    margin-left: -311px;
+}
+
+button{
+    width: 360px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: blue;
+    color: lawngreen;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+input[type=text] ,input[type=email],input[type=password]{
+    height: 40px;
+    border: 1px solid black;
+    border-color: aqua;
+}

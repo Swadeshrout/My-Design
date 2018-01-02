@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Welcome</title>
+        
+        <style>
+            input::placeholder{
+                padding: 10px;
+                color: lightgray;
+            }
+        </style>
+    </head>
+    <body bgcolor="lightgrey">
+        <table align="center" cellpadding="5" style="border: 1px solid black;padding: 30px;width: 450px;border-radius: 8px;background-color: rgb(230, 231, 236);border-color: lightgray;">
+            <tr>
+                <th>
+                    <h1 style="font-family:Sans-serif;">Speaker Submission</h1>
+                    <p style="font-family:Sans-serif;font-weight: normal;">Want to speak at our fake conference?</p>
+                    <p style="font-family:Sans-serif;font-weight: normal;">Fill out this form</p>
+                </th>
+            </tr>
+        </table><br><br>
+        
+        <table align="center" cellpadding="10" style="border: 1px solid black;padding: 30px;width: 450px;border-radius: 8px;background-color: rgb(230, 231, 236);border-color: lightgray;">
+            <tr>
+                <th><span style="font-weight: normal;font-family:Sans-serif;">Name</span></th>
+                <td><input type="text" style="border: 1px solid black;border-radius: 4px;height: 30px;border-color: lightgray;"></td>
+            </tr>
+            
+            <tr>
+                <th><span style="font-weight: normal;font-family:Sans-serif;">Email</span></th>
+                <td><input type="email" placeholder="you@example.com" style="border: 1px solid black;border-radius: 4px;height: 30px;border-color: lightgray;"></td>
+            </tr>
+            
+            <tr>
+                <th><span style="font-weight: normal;font-family:Sans-serif;">Type of Talk</span></th>
+                <td>
+                    <input type="radio" name="check"><span style="font-weight: normal;font-family:Sans-serif;">Main Stage</span>
+                    <input type="radio" name="check"><span style="font-weight: normal;font-family:Sans-serif;">Workshop</span>
+                </td>
+            </tr>
+            
+            <tr>
+                <th><span style="font-weight: normal;font-family:Sans-serif;">T-Shirt Size</span></th>
+                <td>
+                    <select style="width: 180px;padding: 5px;border: 1px solid black;border-radius: 4px;border-color: lightgray;height:35px;">
+                        <option value="">Size</option>
+                        <option value="1">Small</option>
+                        <option value="2" selected>Extra Small</option>
+                        <option value="1">Medium</option>
+                        <option value="1">Large</option>
+                        <option value="1">Extra Large</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <th><p style="margin-top: -70px;font-weight: normal;font-family:Sans-serif;">Abstract</p></th>
+                <td>
+                    <input type="text" style="height: 120px;width: 250px;border: 1px solid black;border-radius: 4px;border-color: lightgray;"><br>
+                    <p style="color:rgb(161, 156, 156);">Describe your talk in 500 words or less</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <th></th>
+                <td><input type="checkbox" style="margin-left: -10px;"><span style="font-size: 15px;">I'm actually available the date of the talk</span></td>
+            </tr>
+        </table>
+    </body>
+</html>
